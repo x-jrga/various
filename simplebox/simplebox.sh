@@ -1,14 +1,5 @@
 #!/bin/sh
 
-#                      My Simple Development Box
-#
-# 1. Install debian using netinst image (select standard utilities packages only)
-# 2. Boot into your new system and run this script
-# 3. Copy configuration files and restart
-#    cp rules.v4 /etc/iptables/
-#    cp sysctl.conf /etc/
-
-
 apt-get -y install net-tools
 apt-get -y install iptables-persistent
 apt-get -y install vim
