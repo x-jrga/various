@@ -30,7 +30,7 @@ rc.xml keybinding snippet:
     <command>dmenu_run</command>
   </action>
 </keybind>
-<!-- Launch lxterminal when Alt+s is pressed -->
+<!-- Launch lxterminal when Alt+l is pressed -->
 <keybind key="A-l">
   <action name="Execute">
     <name>lxterminal</name>
