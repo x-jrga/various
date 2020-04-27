@@ -9,8 +9,7 @@
      cp sysctl.conf /etc/
   6. As root, run iptables -L -n and verify rules.v4 are active
   7. As root, run ifconfig and verify ipv6 is disabled
-  8. As root, run nano /etc/lightdm/lightdm-gtk-greeter.conf and add
-     background image
+  8. As root, run nano /etc/lightdm/lightdm-gtk-greeter.conf and add background image
   9. As a normal user, run obmenu from terminal and add obmenu as a "New item"
  10. As a normal user, run nitrogen and set your background image
  11. As a normal user, run nano /home/user/.config/openbox/rc.xml and add keybinding
