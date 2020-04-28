@@ -34,7 +34,7 @@ apt-get -y install openbox
 apt-get -y install orpie
 apt-get -y install parted
 apt-get -y install pulseaudio
-apt-get -y install qpdfviewer
+apt-get -y install qpdfview
 apt-get -y install rsync
 apt-get -y install simplescreenrecorder
 apt-get -y install stopwatch
