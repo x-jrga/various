@@ -1,20 +1,26 @@
                       My Simple Development Box
 
   1. On an existing system, download netinst image and copy it to usb memory stick
-  2. Boot from usb memory stick and install debian (select standard utilities packages only)
+  2. Boot from usb memory stick and install debian (select standard system utilities packages only)
   3. Boot into your new system
   4. As root, run simplebox.sh
   5. As root, copy configuration files and restart
      cp rules.v4 /etc/iptables/
      cp sysctl.conf /etc/
-  6. As root, run iptables -L -n and verify rules.v4 are active
-  7. As root, run ifconfig and verify ipv6 is disabled
-  8. As root, run nano /etc/lightdm/lightdm-gtk-greeter.conf and add background image
-  9. As a normal user, run obmenu from terminal and add obmenu as a "New item"
- 10. As a normal user, run nitrogen and set your background image
- 11. As a normal user, run nano /home/user/.config/openbox/rc.xml and add keybinding
- 12. As a normal user, run nano /home/user/.config/openbox/autostart and add commands to run when session starts 
+  6. As root, iptables -L -n and verify rules.v4 are active
+  7. As root, ifconfig and verify ipv6 is disabled
+  8. As root, nano /etc/lightdm/lightdm-gtk-greeter.conf and add background image
+  9. As a normal user, obmenu from terminal and add obmenu as a "New item"
+ 10. As a normal user, nitrogen and set your background image
+ 11. As root, cp /etc/xdg/openbox/* /home/user/.config/openbox/
+ 12. As root, chown user.user /home/user/.config/openbox/*
+ 13. As a normal user, nano /home/user/.config/openbox/rc.xml and add keybinding
+ 14. As a normal user, nano /home/user/.config/openbox/autostart and add commands to run when session starts 
      (don't forget to add "&" after each command)
+ 15. As a normal user, mkdir /home/user/bin
+ 16. As a normal user, nano /home/user/.config/openbox/environment and export path
+ 17. As a normal user, rm /home/user/.cache/dmenu_run
+ 18. As a normal user, logout of openbox and log back in
 
 netinst image:
 https://www.debian.org/CD/netinst/
@@ -47,3 +53,6 @@ hide-user-image = true
 autostart snippet:
 nitrogen --restore &
 lxterminal &
+
+environment snippet:
+export PATH=$HOME/bin:$PATH
