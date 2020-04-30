@@ -11,7 +11,7 @@
 -A OUTPUT -p udp --dport 53 -j ACCEPT
 -A OUTPUT -p tcp --dport 80 -j ACCEPT
 -A OUTPUT -p tcp --dport 443 -j ACCEPT
-#-A OUTPUT -p tcp -d 127.0.0.1 --dport 8000 -j ACCEPT
+-A OUTPUT -p tcp -d 127.0.0.1 -j ACCEPT
 -A OUTPUT -j DROP
 COMMIT
 # Completed on Wed Aug 14 20:37:38 2019
