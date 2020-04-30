@@ -18,6 +18,7 @@ apt-get -y install keepassx
 apt-get -y install libreoffice
 apt-get -y install lightdm
 apt-get -y install links2
+apt-get -y install lp-solve
 apt-get -y install lxrandr
 apt-get -y install lxterminal
 apt-get -y install maven
