@@ -10,11 +10,11 @@
   6. As root, iptables -L -n and verify rules.v4 are active
   7. As root, ifconfig and verify ipv6 is disabled
   8. As root, nano /etc/lightdm/lightdm-gtk-greeter.conf and add background image
-  9. As a normal user, obmenu from terminal and add obmenu as a "New item"
- 10. As a normal user, nitrogen and set your background image
- 11. As root, cp /etc/xdg/openbox/* /home/user/.config/openbox/
- 12. As root, chown user.user /home/user/.config/openbox/*
- 13. As a normal user, nano /home/user/.config/openbox/rc.xml and add keybinding
+  9. As a normal user, nitrogen and set your background image
+ 10. As root, cp /etc/xdg/openbox/* /home/user/.config/openbox/
+ 11. As root, chown user.user /home/user/.config/openbox/*
+ 12. As a normal user, nano /home/user/.config/openbox/rc.xml and add keybinding
+ 13. As a normal user, obmenu from terminal and add obmenu as a "New item"
  14. As a normal user, nano /home/user/.config/openbox/autostart and add commands to run when session starts 
      (don't forget to add "&" after each command)
  15. As a normal user, mkdir /home/user/bin
