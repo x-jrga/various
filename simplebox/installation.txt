@@ -21,6 +21,7 @@
  16. As a normal user, nano /home/user/.config/openbox/environment and export path
  17. As a normal user, rm /home/user/.cache/dmenu_run
  18. As a normal user, logout of openbox and log back in
+ 19. As a normal user, aumix to check volume
 
 netinst image:
 https://www.debian.org/CD/netinst/
@@ -56,3 +57,4 @@ lxterminal &
 
 environment snippet:
 export PATH=$HOME/bin:$PATH
+
