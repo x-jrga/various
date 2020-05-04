@@ -34,6 +34,7 @@ apt-get -y install obmenu
 apt-get -y install openbox
 apt-get -y install orpie
 apt-get -y install parted
+apt-get -y install psmisc
 apt-get -y install pulseaudio
 apt-get -y install qpdfview
 apt-get -y install rsync
