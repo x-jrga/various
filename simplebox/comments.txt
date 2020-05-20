@@ -12,3 +12,4 @@ systemctl reboot
 cat /sys/module/usbcore/parameters/autosuspend
 echo -1 >/sys/module/usbcore/parameters/autosuspend
 
+#https://www.kernel.org/doc/Documentation/usb/power-management.txt
