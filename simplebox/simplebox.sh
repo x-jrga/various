@@ -39,6 +39,7 @@ apt-get -y install pulseaudio
 apt-get -y install qpdfview
 apt-get -y install rsync
 apt-get -y install simplescreenrecorder
+apt-get -y install scanimage
 apt-get -y install stopwatch
 apt-get -y install suckless-tools
 apt-get -y install vim
