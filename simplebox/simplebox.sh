@@ -20,10 +20,11 @@ apt-get -y install lightdm
 apt-get -y install links2
 apt-get -y install lp-solve
 apt-get -y install lxrandr
+apt-get -y install arandr
 apt-get -y install lxterminal
 apt-get -y install maven
 apt-get -y install menu
-apt-get -y install mousepad
+apt-get -y install medit
 apt-get -y install netselect-apt
 apt-get -y install net-tools
 apt-get -y install nitrogen
@@ -54,6 +55,16 @@ apt-get -y install xsane
 apt-get -y install xserver-xorg-core
 apt-get -y install xserver-xorg-input-all
 apt-get -y install zip
+apt-get -y install xdotool
+apt-get -y install dia
+apt-get -y install gtkhash
+apt-get -y install pavucontrol
+apt-get -y install filezilla
+apt-get -y install gparted
+apt-get -y install evince
+apt-get -y install ristretto
+apt-get -y install tint2
+apt-get -y install clipit
 apt-get -y remove xterm
 apt autoremove
 apt clean
