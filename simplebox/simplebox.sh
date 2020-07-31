@@ -64,6 +64,7 @@ apt-get -y install gparted
 apt-get -y install evince
 apt-get -y install ristretto
 apt-get -y install tint2
+apt-get -y install conky
 apt-get -y remove xterm
 apt autoremove
 apt clean
