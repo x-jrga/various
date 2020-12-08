@@ -1,0 +1,34 @@
+/* Objective function */
+max: +143 x +60 y;
+
+/* Constraints */
+a: +120 x +210 y <= 15000;
+b: +110 x +30 y <= 4000;
+c: +x +y <= 75;
+
+Model name:  '' - run #1    
+Objective:   Maximize(R0)
+ 
+SUBMITTED
+Model size:        3 constraints,       2 variables,            6 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+ 
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+ 
+ 
+Optimal solution            6315.625 after          2 iter.
+
+Relative numeric accuracy ||*|| = 0
+
+ MEMO: lp_solve version 5.5.2.5 for 64 bit OS, with 64 bit REAL variables.
+      In the total iteration count 2, 0 (0.0%) were bound flips.
+      There were 0 refactorizations, 0 triggered by time and 0 by density.
+       ... on average 2.0 major pivots per refactorization.
+      The largest [LUSOL v2.2.1.0] fact(B) had 4 NZ entries, 1.0x largest basis.
+      The constraint matrix inf-norm is 210, with a dynamic range of 210.
+      Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+       ... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Objective value: 6315.625000
+x: 21.875000
+y: 53.125000
